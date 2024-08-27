@@ -1,0 +1,16 @@
+if SHIELD_CYC62_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "cyc62"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_CYC62_LEFT || SHIELD_CYC62_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
