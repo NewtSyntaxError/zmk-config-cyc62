@@ -20,5 +20,7 @@
 include:
   - board: nice_nano_v2
     shield: cyc62_left
+    shield: cyc62_left nice_view
   - board: nice_nano_v2
     shield: cyc62_right
+    shield: cyc62_right nice_view
